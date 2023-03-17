@@ -1,0 +1,179 @@
+[lobal_config]
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#000000"
+  title_inactive_fg_color = "#ffffff"
+  title_transmit_bg_color = "#888a85"
+[keybindings]
+  go_down = <Alt>s
+  go_left = <Alt>a
+  go_right = <Alt>d
+  go_up = <Alt>w
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+[layouts]
+  [[default1]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 67:27
+      size = 1853, 1025
+      title = wedrive@wedrive-Lenovo-XiaoXin-CHAO5000:~
+      type = Window
+    [[[child1]]]
+      active_page = 3
+      labels = apps, config, workspace, runspace
+      last_active_term = 72bafa30-cd94-48b6-9682-36b917e56689, 9dac5ac5-6488-4784-b9f0-185eee35524e, 2c400436-674f-428f-b781-d3daf729758d, b4d45ba9-83e7-47d7-a580-27bd20c22d54
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child10]]]
+      order = 2
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child11]]]
+      order = 0
+      parent = child10
+      position = 923
+      ratio = 0.5
+      type = HPaned
+    [[[child14]]]
+      order = 1
+      parent = child10
+      position = 923
+      ratio = 0.5
+      type = HPaned
+    [[[child17]]]
+      order = 3
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child18]]]
+      order = 0
+      parent = child17
+      position = 923
+      ratio = 0.5
+      type = HPaned
+    [[[child21]]]
+      order = 1
+      parent = child17
+      position = 923
+      ratio = 0.5
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child4]]]
+      order = 0
+      parent = child3
+      position = 923
+      ratio = 0.5
+      type = HPaned
+    [[[child7]]]
+      order = 1
+      parent = child3
+      position = 923
+      ratio = 0.5
+      type = HPaned
+    [[[terminal12]]]
+      order = 0
+      parent = child11
+      profile = default
+      type = Terminal
+      uuid = 801af1f1-ab26-4272-9f54-ddc56e6ca5ab
+    [[[terminal13]]]
+      order = 1
+      parent = child11
+      profile = default
+      type = Terminal
+      uuid = 2c400436-674f-428f-b781-d3daf729758d
+    [[[terminal15]]]
+      order = 0
+      parent = child14
+      profile = default
+      type = Terminal
+      uuid = a33becb5-2395-4e99-bd2d-3b704f7b16a0
+    [[[terminal16]]]
+      order = 1
+      parent = child14
+      profile = default
+      type = Terminal
+      uuid = 4f8a5b50-bd88-4d82-8206-d2ddfefc390d
+    [[[terminal19]]]
+      order = 0
+      parent = child18
+      profile = default
+      type = Terminal
+      uuid = b4d45ba9-83e7-47d7-a580-27bd20c22d54
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 72bafa30-cd94-48b6-9682-36b917e56689
+    [[[terminal20]]]
+      order = 1
+      parent = child18
+      profile = default
+      type = Terminal
+      uuid = 22348564-db2e-4106-ae3a-2ac3cf3ade3d
+    [[[terminal22]]]
+      order = 0
+      parent = child21
+      profile = default
+      type = Terminal
+      uuid = d24935fb-f029-4f5b-8bd2-c7c0feb840e1
+    [[[terminal23]]]
+      order = 1
+      parent = child21
+      profile = default
+      type = Terminal
+      uuid = d4981032-ec66-4a9c-8da5-ee099d1b3d94
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 9dac5ac5-6488-4784-b9f0-185eee35524e
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 5d5c8a77-f9dd-4aff-9b68-dd17198748ce
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = 7bb58219-913c-4666-9927-92600bdc3b21
+    [[[terminal9]]]
+      order = 1
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = cf816fec-4137-488f-9f34-e039a391ce49
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
