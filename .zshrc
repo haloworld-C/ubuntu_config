@@ -106,3 +106,7 @@ export IP=127.0.0.1
 export ROS_MASTER_URI="http://${M_IP}:11311"
 export ROS_IP="${IP}"
 export ROS_HOSTNAME="${IP}"
+source /usr/share/gazebo/setup.sh
+
+## alis for convinient
+alias gh=/home/wedrive/Documents/workspace/haloLib/scripts/tools/githubProxy.sh
