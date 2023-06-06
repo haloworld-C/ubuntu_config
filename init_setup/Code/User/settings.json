@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "git.openRepositoryInParentFolders": "always",
+    "cmake.configureOnOpen": false,
+    "editor.fontSize": 18, 
+    "editor.lineHeight": 30
+    
+}
