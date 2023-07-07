@@ -101,12 +101,16 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /opt/ros/melodic/setup.zsh
 ## ros env setting
-export M_IP=127.0.0.1
-export IP=127.0.0.1
+#export M_IP=127.0.0.1
+#export IP=127.0.0.1
+export M_IP=192.168.99.2
+export MyIP=192.168.99.195
 export ROS_MASTER_URI="http://${M_IP}:11311"
-export ROS_IP="${IP}"
-export ROS_HOSTNAME="${IP}"
+export ROS_IP="${MyIP}"
+export ROS_HOSTNAME="${MyIP}"
 source /usr/share/gazebo/setup.sh
 
 ## alis for convinient
 alias gh=/home/wedrive/Documents/workspace/haloLib/scripts/tools/githubProxy.sh
+alias jump="~/Documents/workspace/haloLib/scripts/tools"
+alias orin="sshpass -p 'nvidia' ssh nvidia@192.168.1.152"
