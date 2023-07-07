@@ -18,7 +18,7 @@ set showmatch
 set hlsearch
 
 " edit settings
-set spell spelllang=en_us
+" set spell spelllang=en_us
 
 set wildmenu
 set wildmode=longest:list,full
