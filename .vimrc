@@ -10,8 +10,8 @@ set autoindent
 set shiftwidth=4
 set softtabstop=4
 
-set wrap 
-set wrapmargin=2
+" set wrap 
+" set wrapmargin=2
 
 set showmatch
 " search 
